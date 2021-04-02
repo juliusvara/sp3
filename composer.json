@@ -1,0 +1,11 @@
+{
+    "name": "asus/sprint_3",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "doctrine/orm": "^2.7"
+    },
+    "autoload":{
+        "files":["./src/entity/project.php", "./src/entity/student.php"]
+    }
+}
